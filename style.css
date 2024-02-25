@@ -12,13 +12,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.outer-line {
-  border: solid 0.7px rgba(255, 255, 255, 0.589);
-  margin-top: 230px;
-  padding: 6px;
-  border-radius: 25px;
-}
-
 .container {
   border: solid 2.5px rgb(255, 255, 255);
   padding: 35px;
@@ -26,12 +19,25 @@ body {
   width: 360px;
 }
 
+.outer-line {
+  border: solid 0.7px rgba(30, 127, 151);
+  margin-top: 230px;
+  padding: 6px;
+  border-radius: 25px;
+}
+
 .timer {
   text-align: center;
   margin-bottom: 10px;
   font-family: 'Anta', sans-serif;
   font-size: 4.8em;
-  color: aliceblue;
+  color: rgb(230, 226, 222);
+  display: flex;
+  justify-content: center;
+}
+
+.timer span {
+  width: 100px;
 }
 
 .buttons {
